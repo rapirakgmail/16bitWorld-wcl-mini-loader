@@ -15,12 +15,13 @@
       - wcl -mt app2.c (ได้ app2.exe)
         exe2bin app2.exe app2.com
       - หรือ b.bat
+
  4. dosbox-wcl.zip : Zip file ที่ประกอบด้วย folder
     - DPRJ  : เก็บ source file ของ wcloader.c และ APP2.c
     - tools : utility programs
     - WATCOM: Watcom C/C++ ที่พร้อมใช้งาน
-    - AUTOEXEC.BAT : ไฟล์ "BAT" ทำหน้าที่ set path โดยให้สั่ง run เป็นลำดับแรก 
-    NOTE :
+    - AUTOEXEC.BAT : ไฟล์ "BAT" ทำหน้าที่ set path โดยให้สั่ง run เป็นลำดับแรก
+NOTE :
      1. exe2bin โปรแกรมที่ทำหน้าที่แปลง ".EXE" ให้เป็น ".COM"
      2. คู่มือการใช้ Watcom C/C++ https://open-watcom.github.io/open-watcom-v2-wikidocs/ctools.pdf
   
