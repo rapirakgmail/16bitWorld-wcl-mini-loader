@@ -25,4 +25,12 @@
  5. NOTE :
      1. exe2bin โปรแกรมที่ทำหน้าที่แปลง ".EXE" ให้เป็น ".COM"
      2. คู่มือการใช้ Watcom C/C++ https://open-watcom.github.io/open-watcom-v2-wikidocs/ctools.pdf
-     3. สามารถเตรียม enviroment สำหรับการ compile โดย download แฟ้มทั้งหมดจาก https://github.com/rapirakgmail/wcl-env
+     3. สามารถเตรียมเครื่องมือต่างๆสำหรับการ compile ได้ โดย download แฟ้มทั้งหมดจาก https://github.com/rapirakgmail/wcl-env
+
+ # ขั้นตอนการเตรียม enviroment
+     1. ติดตั้ง DOSBOX หรือสร้าง VM ของ DOS16bit ตั้งแต่ 3.x หรือ freedos
+     2. สามารถทำได้ 2 วิธี
+         2.1. download dosbox-wcl.zip และนำมาแตกไฟล์ที่ drive c และทุกครั้งให้เรียกโปรแกรม AUTOEXEC.BAT เพื่อ set path
+         2.2. download zip file จาก "https://github.com/rapirakgmail/wcl-env"  และนำมาแตกไฟล์ที่ drive c
+              และ download "WCLOADER.C" และ "AP2.C" 
+         
