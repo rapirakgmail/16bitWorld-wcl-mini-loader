@@ -1,0 +1,26 @@
+# wcl-mini-loader
+# รายละเอียด
+    - วัตถุประสงค์เพื่อเสริมความเข้าใจเกี่ยวกับกลไกลการทำงานของ loader module ของระบบปฎิบัติการ
+    - โปรแกรมรองรับเฉพาะระบบปฎิบัติการ DOS 16 bit หรือ DOXBOX
+    - โปรแกรมรองรับเฉพาะการโหลดแฟ้ม ".COM" เท่านั้น
+    - พัฒนาโดยใช้  Watcom C/C++ 
+
+# แฟ้ม
+  1. WCLOADER.C  : source file ของ loader
+     การ compile
+      - wcl wcloader.c    (ได้ wcloader.exe)
+      - หรือ c.bat 
+  3. APP2.C : source file ของโปรแกรมตัวอย่าง  
+     การ compile ใช้ tiny model 
+      - wcl -mt app2.c (ได้ app2.exe)
+        exe2bin app2.exe app2.com
+      - หรือ b.bat
+ 4. dosbox-wcl.zip : Zip file ที่ประกอบด้วย folder
+    - DPRJ  : เก็บ source file ของ wcloader.c และ APP2.c
+    - tools : utility programs
+    - WATCOM: Watcom C/C++ ที่พร้อมใช้งาน
+    - AUTOEXEC.BAT : ไฟล์ "BAT" ทำหน้าที่ set path โดยให้สั่ง run เป็นลำดับแรก 
+    NOTE :
+     1. exe2bin โปรแกรมที่ทำหน้าที่แปลง ".EXE" ให้เป็น ".COM"
+     2. คู่มือการใช้ Watcom C/C++ https://open-watcom.github.io/open-watcom-v2-wikidocs/ctools.pdf
+  
