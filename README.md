@@ -25,4 +25,4 @@
  5. NOTE :
      1. exe2bin โปรแกรมที่ทำหน้าที่แปลง ".EXE" ให้เป็น ".COM"
      2. คู่มือการใช้ Watcom C/C++ https://open-watcom.github.io/open-watcom-v2-wikidocs/ctools.pdf
-     3. สามารถเตียม enviroment สำหรับการ compile โดย download แฟ้มทั้งหมดจาก https://github.com/rapirakgmail/wcl-env
+     3. สามารถเตรียม enviroment สำหรับการ compile โดย download แฟ้มทั้งหมดจาก https://github.com/rapirakgmail/wcl-env
